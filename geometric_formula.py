@@ -9,3 +9,11 @@ area_circle = 3.14 * radius ** 2
 
 print ("Your perimeter is: ", perimeter_circle)
 print ("Your area is: ", area_circle)
+
+print("**********************************")
+side = float(input("Digit the side of the square:"))
+perimeter = side*4 
+area = side*side
+print("Square Perimeter: ", perimeter)
+print("Square Area:", area)
+print("**********************************")
